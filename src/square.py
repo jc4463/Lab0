@@ -26,14 +26,16 @@ def draw_square(length : int) -> None:
     :param length: the length in pixels of one side of the square
     :return: None
     """
-    for _ in range(4):
+    for i in range(2):
+        for _ in range(4):
+            turtle.forward(length)
+            turtle.left(90)
         turtle.forward(length)
-        turtle.left(90)
 
 def main() -> None:
     """
     The main function.
-    :return: None
+    :return:  None
     """
 
     # Get the side length from either the command line (if present), or by
