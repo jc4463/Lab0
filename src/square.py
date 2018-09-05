@@ -35,7 +35,7 @@ def draw_square(length : int) -> None:
 def main() -> None:
     """
     The main function.
-    :return: None
+    :return:  None
     """
 
     # Get the side length from either the command line (if present), or by
